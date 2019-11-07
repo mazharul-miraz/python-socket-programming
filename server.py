@@ -8,4 +8,4 @@ s.listen(5)
 while True:
     clt, adr=s.accept()
     print(f"Connection to {adr} established ")
-    clt.sned(bytes("Wellcome to socket programming in python", "utf-8" ))
+    clt.send(bytes("Wellcome to socket programming in python", "utf-8" ))
